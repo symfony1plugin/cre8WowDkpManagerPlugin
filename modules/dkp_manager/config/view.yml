@@ -1,0 +1,12 @@
+all:
+  http_metas:
+    content-type: application/json
+  has_layout:     false
+
+indexSuccess:
+  http_metas:
+    content-type: text/html
+  stylesheets:    [-*, themes/base/jquery.ui.all.css, /cre8WowPlugin/css/boxTableCharacters.css, /cre8WowPlugin/js/tablesorter/themes/wow/style.css, /cre8WowDkpManagerPlugin/css/dkp_manager, /cre8WowDkpManagerPlugin/css/autoSuggest]
+  javascripts:    [-*, jquery, no_conflict, jquery-ui, i18n/jquery-ui-i18n.js, 'http://static.wowhead.com/widgets/power.js', jqLayout/jquery.layout.js, jqThemeSwitcher/themeswitcher, /cre8WowPlugin/js/tablesorter/jquery.tablesorter.min.js, /cre8WowDkpManagerPlugin/js/jquery.autoSuggest.packed.js]
+  has_layout:     true
+  layout:         dkp
